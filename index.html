@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <nav id="navbar">
+            <img class="logo" src="./img/logo 1.png" alt="">
+            <div class="mg2">
+                <img class="home" src="./img/Group 1097.png" alt="">
+                <img src="./img/Group 1100.png" alt="">
+                <img src="./img/Vector.png" alt="">
+                <img src="./img/Ellipse 53.png" alt="">
+            </div>
+        </nav>  
+        <div class="container">
+            
+            <div class="hero1">
+                <div class="box1">
+                    <div class="dropdown">
+                        <img onclick="myFunction()" class="dropbtn" src="./img/a1.png" alt="">
+                        <div id="myDropdown" class="dropdown-content">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+               </div> 
+            </div>
+            
+            <div class="hero2">
+                <div class="abc">
+                    <h2>Technical Project Management</h2>
+                    <button class="btn1" type="submit">Submit</button>
+                </div>
+                 <div class="box2">
+                    <h3>Explore the world of management</h3>
+                    <p>As a project manager, you play an important reole in leading a project through initiation, planning, execution, monitoring, controlling and <br> completion. How? Do you want to manage each and every step of your life?</p>
+                </div>
+               <div class="boxes">
+                    <div class="boxx">
+                        <div class="box3">
+                            <div class="header2"><p class="p1">Technical Project Management</p><img class="img1" src="" alt=""> </div>
+                            <p class="p3">Description: <span>Story of Alignment Scope of Agility Specific <br> Accountable Staggering Approach</span></p>
+                            <img class="img2" src="./img/image 13.png">
+                        </div>
+                        <div class="box4">
+                            <div class="header2"><p class="p1">Threadbuild</p></div>
+                            <p class="p3">Description: <span>Watch the video and threadbuild, and jot out key <br> threads while watching the video</span></p>
+                            <div class="boxm"><h3>Thread A</h3></div>
+                            <div class="boxn">
+                                <div class="boxA"><label for="text">Sub thread 1</label><br><input type="text" placeholder="Enter text here"></div>
+                                <div class="boxB"><label for="text">Sub interprtation</label><br><input type="text" placeholder="Enter text here"></div>
+                            </div>
+                            <div class="xyz">
+                                <img  class  ="im1" src="./img/Vector (1).png" alt="">
+                                <img src="./img/Vector@2x.png" alt="">
+                                <img src="./img/Vector (2).png" alt="">
+                                <img src="./img/Vector (3).png" alt="">
+                                </div>
+                            <button class="btn2" type="button"><img src="./img/+.png" >Sub-thread</button>
+                            <div class="boxB"><label for="text">Summary for thread A</label><br><input type="text" placeholder="Enter text here"></div>
+                        </div> 
+                    </div>
+                    <div class="boxy">
+                        <div class="box5">
+                            <div class="header2"><p class="p1">Structure your Pointers</p></div>
+                            <p class="p3">Description: <span> Write a 300 - 400 word article from your thread . <br>Publish your understanding and showcase your understanding <br>to the entire world </span></p>
+                            <h4>Title</h2>
+                            <div class="boxC"></div>
+                            <h4>Content</h2>
+                            <nav class="boxD">
+                                <a href="#">File</a>
+                                <a href="#">Edit</a>
+                                <a href="#">View</a>
+                                <a href="#">Insert</a>
+                                <a href="#">Format</a>
+                                <a href="#">Tool</a>
+                                <a href="#">Table</a>
+                                <a href="#">Help</a>
+                            </nav>
+                            <div class="boxE"></div>
+                        </div>
+                        <div class="box6">
+                            <div class="header2"><p class="p1">4SA Method</p> <img src="./img/Group 1735.png" alt=""></div>
+                            <p class="p3">Description: <span>To Explore more read more </span></p>
+                            <h4>Introduction </h4><p class="p9">The 4SA Method , How to bring a idea into progress ?</p>
+                            <h4>Thread A</h4><p class="p9">How are you going to develop your stratergy ? Which method <br> are you going to use to develop a stratergy ? What if the <br> project is lengthy?</p>
+                            <h4>Example 1</h4><p class="p9">You have a concept , How will you put into progress?</p>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+            <div class="hero3">
+                <div class="box7"><div class="header3"> 
+                   <p>
+                        N <br>
+                        o <br>
+                        t <br>
+                        i  <br>
+                        c  <br>
+                        e  <br></br>
+                        
+                        B <br>
+                        o <br>
+                        a <br>
+                        r <br>
+                        d
+                   </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script >
+        
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+    </script>
+</body>
+</html>
